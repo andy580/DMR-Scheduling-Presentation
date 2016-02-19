@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+  <title> Random Number Generator </title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+  <!-- "RNGSS" = "Random Number Generator Style Sheet" -->
+  <link rel="stylesheet" type="text/css" href="RNGSS.css"/>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="jquery-1.8.3.js"></script>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="RNGScript.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+
+
+
+  <body class="main">
+
+  <h1> Scheduling Presentation </h1>
+
+  <form id="form" onsubmit="return false">
+
+    <input type="number" id="people" value=7 />
+  	<p> People </p>
+  	<input type="text" name="Person1" value="岡本さん - Okamoto-san" id="name1"> <br>
+  	<input type="text" name="Person2" value="鮫島さん - Samejima-san" id="name2"> <br>
+   	<input type="text" name="Person2" value="吉原さん - Yoshihara-san" id="name3"> <br>
+   	<input type="text" name="Person2" value="小俣さん - Omata-san" id="name4"> <br>
+   	<input type="text" name="Person2" value="森さん - Mori-san" id="name5"> <br>
+   	<input type="text" name="Person2" value="Marcusさん - Marcus-san" id="name6"> <br>
+   	<input type="text" name="Person2" value="Andyさん - Andy-san" id="name7"> <br>
+
+  	<input type="submit" onclick="makeNewNumbers();" />
+  </form>
+
+  </br>
+
+  <p id="p1"> Evaluator: </p>
+  <p id="selectedEval"> ... </p>
+  <p id="p2"> Evaluatee: </p>
+  <p id="selectedEvalee"> ... </p>
+
+<hr>
+
+<p id="footer"> Being Developed by Anshuman Gehlan and Kazuhiro Mori </p>
+
+  </body>
+
+</html>
